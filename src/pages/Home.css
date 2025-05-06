@@ -1,0 +1,73 @@
+.fondo-no{
+    background-image: url('/meme.png');
+    background-size: auto;
+    background-repeat:repeat;
+    background-position: left;
+}
+
+main{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+main h1 {
+    font-size: 58px;
+}
+  
+.tarjetas-amor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 55px;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+  
+  
+  .cita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+  
+  .cita h2{
+    font-size: 38px;
+  }
+  
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.buttons button{
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+    font-size: 22px;
+    font-family: 'Gotham';
+    height: 50px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+  
+.buttons button:hover{
+    background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+}
+
+.buttons .button-no {
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}

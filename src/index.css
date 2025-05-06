@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Gotham';
+  src: url(../fonts/Gotham\ Medium.otf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url('/fondo-3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+:root {
+
+  font-family:'Gotham';
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  scroll-behavior: smooth;
+}
+
